@@ -1,0 +1,64 @@
+Primero crear base de datos.
+CREATE DATABASE AbarrotesAPI;
+
+use AbarrotesAPI;
+
+CREATE TABLE productos (id int IDENTITY(1,1), nombre varchar(250), marca varchar(250), tipo varchar(250),  precio float, existencia int, PRIMARY KEY (id));
+
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Stax', 'Sabritas', 'Alimentos', 35.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('SKYY', 'SKYY', 'Licor', 24.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Chesterfield 14', 'Marlboro', 'Cigarros', 39.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Valentones', 'Barcel', 'Alimentos', 25.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Absolute Vodka', 'Absolute', 'Licor', 50.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Ruffles Queso', 'Sabritas', 'Alimentos', 15.50, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Doritos Nacho', 'Sabritas', 'Alimentos', 15.50, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Ruffles Crunch Jalapeño', 'Sabritas', 'Alimentos', 15.50, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Ruffles Naturales', 'Sabritas', 'Alimentos', 15.50, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Sabritas Caseras Jalapeño', 'Sabritas', 'Alimentos', 15.50, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Fritos Chile', 'Sabritas', 'Alimentos', 15.50, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Fritos Sal', 'Sabritas', 'Alimentos', 15.50, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Fritos Chorizo', 'Sabritas', 'Alimentos', 15.50, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Crujitos', 'Sabritas', 'Alimentos', 15.50, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Doritos Pizzerola', 'Sabritas', 'Alimentos', 15.50, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Doritos Toro', 'Sabritas', 'Alimentos', 15.50, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Doritos Incógnita', 'Sabritas', 'Alimentos', 15.50, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Pepsi 600', 'PepsiCo', 'Alimentos', 13.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Mirinda 600', 'PepsiCo', 'Alimentos', 13.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Rancheritos', 'Sabritas', 'Alimentos', 14.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Bic grande', 'Bic', 'Encendedores', 20.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Clipper grande', 'Clipper', 'Encendedores', 35.50, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Bic chico', 'Bic', 'Alimentos', 15.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Clipper chico', 'Clipper', 'Encendedores', 20.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Salvo Lavanda', 'Salvo', 'Limpieza', 25.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Suavitel Azul', 'Suavitel', 'Limpieza', 35.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Cloralex 1lt', 'Cloralex', 'Limpieza', 35.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Clorets 6pack', 'Clorets', 'Dulcería', 5.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Rocaleta', 'Ricolino', 'Dulcería', 10.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Tix tix', 'Ricolino', 'Dulcería', 5.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Chocolate vaquita', 'Ricolino', 'Dulcería', 8.50, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Milkyway', 'Ricolino', 'Dulcería', 20.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Crunch', 'Ricolino', 'Dulcería', 20.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Snickers', 'Ricolino', 'Dulcería', 20.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Bubalo platano', 'Ricolino', 'Dulcería', 2.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Bubalo menta', 'Ricolino', 'Dulcería', 2.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Bubalo chamoy', 'Ricolino', 'Dulcería', 2.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Bubalo tutifruti', 'Ricolino', 'Dulcería', 2.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Bubalo fresa', 'Ricolino', 'Dulcería', 2.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Cazuelita', 'Ricolino', 'Dulcería', 5.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Tambor', 'Ricolino', 'Dulcería', 5.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Karla', 'Sabritas', 'Alimentos', 15.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Tecate', 'Modelo R', 'Licor', 35.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Sol', 'Modelo R', 'Licor', 35.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Modelo', 'Modelo R', 'Licor', 35.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Heineken', 'Modelo R', 'Licor', 35.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Cabrito', 'Tequila R', 'Licor', 35.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Gran Malo', 'Luisito', 'Licor', 35.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Riot 1000RP', 'Riot Games', 'Digital', 150.00, 50);
+INSERT INTO productos(nombre, marca, tipo, precio, existencia) values('Amazon 1000', 'Amazon', 'Digital', 1000.00, 50);
+
+CREATE TABLE usuarios (id int IDENTITY(1,1), nombre varchar(250), apellido1 varchar(250), apellido2 varchar(250), correo varchar(250), celular varchar(250), tipo int, PRIMARY KEY (id));
+
+INSERT INTO usuarios(nombre, apellido1, apellido2, correo, celular, tipo) values('Luis', 'Spinetta', 'Ramírez', 'pescado@uteq.com', '4421234567', 1);
+INSERT INTO usuarios(nombre, apellido1, apellido2, correo, celular, tipo) values('John', 'Lennon', 'Harrison', 'beatle@uteq.com', '4421234568', 1);
+INSERT INTO usuarios(nombre, apellido1, apellido2, correo, celular, tipo) values('Robert', 'Plant', 'Zeppelin', 'led@uteq.com', '4421234569', 1);
+
